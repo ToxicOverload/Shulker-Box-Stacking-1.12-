@@ -36,3 +36,12 @@ scoreboard players tag @e remove notCurrentlyExecuting
 
 #Not strictly necessary, just cleaner
 scoreboard players tag @e remove isEmpty
+
+
+
+
+
+
+
+#Execute ticks for other mcfunction files (called here because shulkerBoxStacking is often called separately)
+function coordinator:loop
